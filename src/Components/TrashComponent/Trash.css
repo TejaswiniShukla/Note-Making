@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+   
+}
+.maintrash{
+    width: 52vmax;
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    
+}
+.recttrash{
+    width: 30vmin;
+    height: 30vmin;
+
+    /* background-color: palevioletred; */
+    background-color: rgb(233, 233, 73);
+    border-radius: 20px; margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    
+}
+.innertrashrect1{
+    width: 100%;
+    height: 50%; 
+    
+}
+.fortrashicons{
+    width: 100%;
+  display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.fortrashicons i{
+    color: grey;
+    font-size: 30px
+
+    
+}
+
+
+
+
